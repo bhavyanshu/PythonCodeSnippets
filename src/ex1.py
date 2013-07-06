@@ -40,4 +40,4 @@ print"If I add cats & kittens, I would get %d."%(cats+kittens) #Oh yes you can d
 #Some more string vars examples.
 hilarious=False
 joke_evaluation="Isn't that joke so funny?! %r"
-print joke_evaluation%hilarious
+print joke_evaluation%hilarious #So simple.
