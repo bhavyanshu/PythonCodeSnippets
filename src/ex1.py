@@ -1,4 +1,4 @@
-# Hi this is the first exercise to learn python.
+# Hi this is the first exercise to learn python. It is completely based on printing exercise and playing around with variables.
 
 print "Hi I am a Cat" # This line just prints out whatever we have mentioned in the inverted commas.
 
@@ -63,3 +63,18 @@ end12="r"
 # watch that comma at the end. try removing it to see what happens
 print end1+end2+end3+end4+end5+end6,
 print end7+end8+end9+end10+end11+end12
+
+days="Mon\tTue\tWed\tThu\tFri\tSat\tSun"
+months="\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug" #\n is the end line character. Similarly there is \t used to tab spacing.
+
+
+print"Here are the days: ",days
+print"Here are the months: ",months
+
+print"""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+"""
+# Remember there are no spaces between three """. It is a very common mistake.
