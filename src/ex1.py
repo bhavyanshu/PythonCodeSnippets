@@ -36,3 +36,8 @@ print "There are",cats,"cats &",kittens,"kittens." #Simple, right?
 print "Or the other way,"
 print "There are %d cats & %d kittens" %(cats,kittens) #look at the syntax very carefully.
 print"If I add cats & kittens, I would get %d."%(cats+kittens) #Oh yes you can do arithematic operations within print statements. :)
+
+#Some more string vars examples.
+hilarious=False
+joke_evaluation="Isn't that joke so funny?! %r"
+print joke_evaluation%hilarious
