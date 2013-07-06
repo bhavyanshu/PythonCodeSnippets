@@ -1,3 +1,7 @@
+# What's the difference between argv and raw_input()?
+# The different has to do with where the user is required to give input. If they give your script inputs on the command line, then you use argv. 
+# If you want them to input using the keyboard while the script is running, then use raw_input().
+
 import sys #* Read the comment for lines marked with asterisk symbol. (comment this if executing from console)
 from sys import argv
 
