@@ -35,3 +35,4 @@ print "There are",cats,"cats &",kittens,"kittens." #Simple, right?
 #We can also use the way mentioned below as we did in C :)
 print "Or the other way,"
 print "There are %d cats & %d kittens" %(cats,kittens) #look at the syntax very carefully.
+print"If I add cats & kittens, I would get %d."%(cats+kittens) #Oh yes you can do arithematic operations within print statements. :)
