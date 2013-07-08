@@ -1,7 +1,7 @@
 # Now let us look at examples on how to ask the end user for inputs.
 
 print "How many cats were there?",
-numberofcats = raw_input()
+numberofcats = int(raw_input())
 print numberofcats
 
 # Now basically what we have here is that we take user input as a string and not as a proper integer value as
@@ -20,3 +20,6 @@ print numberofkittens
 numberofDogs= int(raw_input("Total number of Dogs?")) #Easy, isn't it?
 print numberofDogs
 
+print "*********************Let us now print the input data******************"
+print "*Number of cats are %d, number of kittens are %d & number of dogs are %d"%(numberofcats,numberofkittens,numberofDogs)+"*"
+print "**********************************************************************"
