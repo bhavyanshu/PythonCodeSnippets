@@ -5,4 +5,5 @@ cats=raw_input("How many cats do you have?")
 kittens=raw_input("How many kittens are there?")
 dogs=raw_input("What about dogs?")
 
+
 print"So, you have %rcats, %rkittens and %rdogs."%(cats,kittens,dogs)
